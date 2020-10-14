@@ -1,5 +1,4 @@
-# GEN - Monitor
-
+<h1 align="center"> :star: GEN-Monitor </h1>
 <p align="center">
   <b>A NodeJS Monitor built with Puppeteer</b><br>
   <a href="https://profile.intra.42.fr/users/amonteli"><b>Intra Profile</b> | Discord: Snkh#8559</a>
@@ -19,7 +18,7 @@ $ cd GEN-Monitor
 $ npm install
 ```
 
-## Running (one time)
+## Run
 
 Copy .env.example to .env and fill it
 ```bash
