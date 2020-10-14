@@ -1,0 +1,20 @@
+{
+  "name": "gen-monitor",
+  "version": "1.0.0",
+  "description": "Monitor for GEN built with Puppeteer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Monitor",
+    "GEN",
+    "42"
+  ],
+  "author": "Alexis 'amonteli' Montelimart. <amontelimart@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^5.3.1"
+  }
+}
