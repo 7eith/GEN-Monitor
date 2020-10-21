@@ -6,7 +6,7 @@
 /*   By: amonteli <amonteli@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/14 06:27:20 by amonteli          #+#    #+#             */
-/*   Updated: 2020/10/14 07:51:40 by amonteli         ###   ########lyon.fr   */
+/*   Updated: 2020/10/21 08:10:59 by amonteli         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ async function start()
 {
 	let cache = await fetchCache();
 
-	const browser = await puppeteer.launch({headless: false});
+	const browser = await puppeteer.launch();
 
 	const page = await browser.newPage();
 
