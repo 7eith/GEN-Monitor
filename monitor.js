@@ -93,4 +93,8 @@ async function start()
 	fs.writeFileSync('cache.json', JSON.stringify(cache));
 }
 
-start();
+setInterval(function(){
+	const date = new Date().getDate();
+	if (date == pareseInt(process.env.REFRESH_DAY))
+		start();
+},86400000)
